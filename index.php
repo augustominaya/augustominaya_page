@@ -15,7 +15,7 @@
 
 
 <?php
-	//Probando el webhook
+	//Probando el webhook v2
 // require_once  ('php/conexion.php');
 // require_once  ('php/visitas.php');
 
