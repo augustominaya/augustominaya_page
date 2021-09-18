@@ -15,7 +15,7 @@
 
 
 <?php
-	//Probando el webhook v3
+	//Probando el webhook v4
 // require_once  ('php/conexion.php');
 // require_once  ('php/visitas.php');
 
