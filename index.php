@@ -164,7 +164,7 @@ echo $vervi[0];
 ?>)</strong>
 </h5>
 <div id="cabezacenter">
-	<h2>Pagina Oficial the ACMC Prueba 3</h2>
+	<h2>Pagina Oficial the ACMC Prueba 4</h2>
 
     <h4>WEB Beta | Demo - Augusto Cesar Minaya Cruz</h4>
     </div>
