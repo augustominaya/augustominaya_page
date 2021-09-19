@@ -14,19 +14,19 @@ pipeline {
         stage('Test_QA_EC2') {
             steps {
                 echo 'Testing..'
-               sh 'cd ${QA_EC2_CODE} && ./app_test.sh'
+               sh 'cd env.QA_EC2_CODE && ./app_test.sh'
             }
         }
         stage('Build_packer_image') {
             steps {
                 echo 'Building..'
-                sh 'cd ${PACKER_IMG} && ./app_build.sh'
+                sh 'cd env.PACKER_IMG && ./app_build.sh'
             }
         }
         stage('Deploy_Infra_Pro') {
             steps {
                 echo 'Deploying..'
-                sh 'cd ${INFRA_PRO} && ./infra_build.sh'
+                sh 'cd env.INFRA_PRO && ./infra_build.sh'
             }
         }
     }
